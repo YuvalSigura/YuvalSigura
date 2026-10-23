@@ -1,57 +1,87 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&duration=2800&pause=900&color=7DD3FC&center=true&vCenter=true&width=700&lines=Agents+that+reason.;Systems+that+authorize.;Evidence+that+survives+scrutiny.;Boundaries+that+hold+under+failure." alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Yuval%20Sigura&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Building%20systems%20that%20refuse%20to%20trust%20the%20model&descAlignY=60&descAlign=50"/>
 
-### Building systems where reasoning, authorization, and evidence stay separate
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=00E5FF&center=true&vCenter=true&width=720&lines=Models+propose.;Systems+authorize.;Evidence+decides.;No+exceptions." alt="Typing SVG" />
 
-**I design and implement research and security infrastructure that treats models as proposers — not as authorities.**
+### AI Security · Autonomous Research · Evidence-First Systems
+
+**I build the infrastructure that keeps autonomous agents honest.**
+
+[![GitHub](https://img.shields.io/badge/GitHub-YuvalSigura-181717?style=for-the-badge&logo=github)](https://github.com/YuvalSigura)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Exam_Recall-00C853?style=for-the-badge)](https://yuvalsigura.github.io/)
+[![Location](https://img.shields.io/badge/Tel_Aviv-Israel-blue?style=for-the-badge&logo=googlemaps)](#)
 
 </div>
 
 ---
 
-## What I actually build
+<div align="center">
 
-Most of the work is about the same problem from different angles:
+### The Problem I Obsess Over
 
-how to let autonomous systems explore, form hypotheses, and propose actions  
-**without** letting them authorize those actions, invent evidence, or declare success.
+Most AI systems collapse the moment you ask:
 
-The recurring pattern in the code is deliberate separation of concerns:
+> "How do you *know* that happened?"
 
-- **Reasoning** — agents generate questions, plans, and candidate actions.
-- **Authorization** — a separate plane decides what is actually allowed, under what policy, and with what budget.
-- **Execution** — happens in controlled environments, with explicit artifacts.
-- **Evidence** — recorded independently. Claims are verified against real outputs, not against the model’s report.
-- **Verification** — fail-closed. Missing evidence, ambiguous provenance, or policy violation blocks progress rather than being smoothed over.
+I build systems where that question has a real answer.
 
-This shows up in authorized security research systems, controlled laboratories for evaluating agents, research-reconstruction engines, and experiments that touch physical platforms. The common thread is not the domain — it is the refusal to collapse the boundary between “the model said so” and “we can prove it happened.”
+</div>
 
-## Selected public work
+## What I Ship
 
-| Project | What it is trying to do |
-|---------|--------------------------|
-| **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Reconstruct the questions and decision points that produced discoveries, with explicit uncertainty and provenance. |
-| **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | A local multi-tenant lab where an independent oracle checks real artifacts and audit trails instead of trusting an agent’s summary. |
-| **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Edge robotics with fail-safe low-level control separated from higher-level planning. |
-| **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | Small public tool for active-recall practice. |
+Autonomous agents that **reason hard**  
+but **cannot authorize** their own actions.  
+Evidence that is recorded independently.  
+Verification that fails closed when proof is missing.
 
-## How the code tends to look
+The same pattern appears across:
 
-- Agents do not own the scheduler, the policy engine, or the proof store.
-- Actions that can affect a target go through an explicit authorization check.
-- Evidence records are distinct from model outputs.
-- Failures, negative results, and “not tried” are preserved rather than rewritten into success stories.
-- Experiments are designed so that verification can happen without trusting the component under test.
+- **Authorized security research** — agents propose; a separate plane decides what is allowed.
+- **Controlled laboratories** — an independent oracle checks real artifacts, not the agent's story.
+- **Research reconstruction** — tracing the *questions* that led to discoveries, with uncertainty preserved.
+- **Physical systems** — planning stays separate from fail-safe low-level control.
 
-## Current focus
+**Models propose. Systems authorize. Evidence decides.**
 
-Extending the same separation of concerns into longer-running research loops, better evaluation of autonomous investigators, and tighter coupling between controlled digital labs and physical sensing platforms — always with the constraint that the system must be able to say “we do not yet have evidence for that.”
+## Featured Work
+
+| | Project | One-Liner |
+|---|---------|-----------|
+| 🔬 | **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Reconstructs the questions behind discoveries — not just the final exploit. |
+| 🛡️ | **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | Multi-tenant lab where an oracle verifies real artifacts instead of trusting the agent. |
+| 🤖 | **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Edge robotics with motor control that refuses to move without explicit, bounded commands. |
+| 📚 | **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | Live active-recall tool for Discrete Math & Computer Systems. |
+
+## How the Code Behaves
+
+- Agents do **not** own the scheduler, the policy engine, or the proof store.
+- Anything that can touch a target goes through an explicit authorization gate.
+- Evidence is stored separately from model output.
+- Negative results and "not tried" are kept — not rewritten into success stories.
+- Experiments are designed so verification does not require trusting the thing under test.
+
+## Now
+
+Extending the same boundaries into longer research loops, better evaluation of autonomous investigators, and tighter coupling between controlled digital labs and physical platforms.
+
+Always with one constraint:  
+**the system must be able to say "we do not yet have evidence for that."**
 
 ---
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=YuvalSigura&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117" height="170" alt="GitHub Stats" />
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuvalSigura&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170" alt="Top Languages" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YuvalSigura&theme=tokyo-night&hide_border=true&bg_color=0d1117" width="100%" alt="Activity Graph" />
+
+<br>
+
 **Models propose. Systems authorize. Evidence decides.**
+
+*Open to collaborations on research infrastructure, agent evaluation labs, and evidence-governed systems.*
 
 </div>
