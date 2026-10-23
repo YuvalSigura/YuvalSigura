@@ -98,6 +98,21 @@ A Hebrew study application with active recall, weak-topic practice, and local pr
 
 **Other public explorations:** [C#/.NET binary analysis tooling](https://github.com/YuvalSigura/PuaSuiteClean) · [Wi-Fi CSI sensing resources](https://github.com/YuvalSigura/esp-csi). Check individual repositories for original upstream attribution, scope, and maturity.
 
+## Hack The Box achievements
+
+I practice cybersecurity through Hack The Box Labs and Academy. Selected historical achievements:
+
+- **Season 9:** Bronze, Silver, and Ruby achievement tiers (2025).
+- **Grandmaster of Stealth:** machine-specific achievement for Infiltrator, not a global rank.
+- **Just Another Brick in the Wall:** ten-machine ownership milestone.
+- **Took The Spotlight:** machine achievement badge.
+- **Starting Point:** completed the introductory tiers.
+
+**Academy learning:** Footprinting, Nmap Deep Dive, Introduction to Vulnerability Assessment, Cross-Site Scripting (XSS), and Using the Metasploit Framework.
+
+*These are previously documented milestones, not current rank or certification claims.*
+
+---
 ## Audio meets hardware
 
 **🎸 DIY virtual guitar effects and pedals — Python + physical control**
