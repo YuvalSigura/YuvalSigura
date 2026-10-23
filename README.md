@@ -1,16 +1,21 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:0d1117&height=180&section=header&text=Yuval%20Sigura&fontSize=46&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc=I%20build%20systems%20that%20don%27t%20trust%20the%20model.&descAlignY=70&descAlign=50&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:0d1117&height=170&section=header&text=Yuval%20Sigura&fontSize=43&fontColor=00E5FF&fontAlignY=43" width="100%" alt="Yuval Sigura" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=420&height=60&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." alt="Engineering principles" />
+**I build systems that don't trust the model.**
 
-**AI Research · Cybersecurity · Software Engineering · Robotics · Embedded Systems**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3200&pause=1200&color=00E5FF&center=true&vCenter=true&width=560&height=65&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." alt="Animated engineering principles: Agents cannot authorize themselves; Evidence is not model opinion; Fail-closed, always." width="560" />
+
+<p align="center">
+  <strong>AI Research · Cybersecurity · Software Engineering</strong><br/>
+  <strong>Robotics · Embedded Systems</strong>
+</p>
 
 <img src="https://skillicons.dev/icons?i=python,javascript,cs,c,html,css,docker,linux,git,github,vscode&perline=6" alt="Technology stack" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00E5FF,100:0d1117&height=30&section=header" width="100%"/>
+---
 
 ## About me
 
