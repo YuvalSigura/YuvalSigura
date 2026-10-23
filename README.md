@@ -15,6 +15,15 @@
 
 </div>
 
+<p align="center">
+  <a href="#about-me">About</a> ·
+  <a href="#areas-of-focus">Focus</a> ·
+  <a href="#selected-public-projects">Projects</a> ·
+  <a href="#toolbox">Toolbox</a> ·
+  <a href="#engineering-loop">Workflow</a> ·
+  <a href="#connect">Connect</a>
+</p>
+
 ---
 
 ## About me
@@ -24,6 +33,19 @@ I'm **Yuval Sigura**, a computer science student, developer, and independent tec
 My work and technical interests span the engineering stack — from embedded devices, operating systems, wireless sensing, and physical computing to backend services, web applications, machine learning, and research infrastructure.
 
 I value **reproducible experiments, explicit security boundaries, measurable results, and evidence that can be checked independently**.
+
+### Developer console
+
+```text
+yuval@engineering:~$ whoami
+CS student | Developer | Independent researcher
+
+yuval@engineering:~$ ls focus/
+ai  cybersecurity  robotics  embedded  backend
+
+yuval@engineering:~$ cat principles.txt
+Question -> Build -> Test -> Verify -> Learn
+```
 
 ## Areas of focus
 
@@ -36,6 +58,23 @@ I value **reproducible experiments, explicit security boundaries, measurable res
 - **Backend Systems & Infrastructure** — APIs, local services, persistent state, Docker, Linux, Git, CI/CD, and workflow automation.
 - **Reverse Engineering & Binary Analysis** — binary inspection, patching, and low-level security-oriented experimentation.
 - **Research & Evaluation** — experimental design, benchmarking, provenance, reproducibility, and independent validation.
+
+## Toolbox
+
+<details>
+<summary><strong>🧰 Explore my tech stack</strong> — expand to see languages, tools and platforms</summary>
+
+**Languages & web:** Python · C · C# · JavaScript · HTML · CSS · .NET
+
+**Systems & infrastructure:** Linux · Windows · Git · GitHub Actions · Docker · CI/CD · APIs
+
+**Security & testing:** Web/API assessment · Burp Suite · Nmap · static analysis · vulnerability validation
+
+**AI & research:** Machine learning · LLM/agent tooling · OpenCV · benchmarking · evaluation
+
+**Hardware & sensing:** Jetson Orin Nano · ESP32 · robotics · Wi-Fi CSI · sensor integration
+
+</details>
 
 <div align="center">
 
@@ -64,6 +103,21 @@ These principles appear in my public work through:
 
 **Models propose. Systems authorize. Evidence decides.**
 
+## Engineering loop
+
+The same evidence-first process guides how I approach software, security assessments, and robotics experiments:
+
+```mermaid
+flowchart TD
+    A["Ask a question"] --> B["Design a test"]
+    B --> C["Build and observe"]
+    C --> D["Verify the evidence"]
+    D --> E{"Supported?"}
+    E -->|"Yes"| F["Document the result"]
+    E -->|"Not yet"| G["Record uncertainty"]
+    G --> B
+```
+
 ## Selected public projects
 
 | Project | Focus and demonstrated work |
@@ -85,6 +139,8 @@ Across these areas, I try to make a clear distinction between **what is implemen
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00E5FF,100:0d1117&height=40&section=header" width="100%"/>
 
+## GitHub activity
+
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=YuvalSigura&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9" alt="GitHub statistics" width="100%" />
@@ -92,6 +148,8 @@ Across these areas, I try to make a clear distinction between **what is implemen
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuvalSigura&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&text_color=c9d1d9" alt="Top repository languages" width="100%" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=YuvalSigura&theme=tokyonight&hide_border=true&background=0d1117&stroke=00E5FF&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="Contribution streak" width="100%" />
+
+### Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvalsigura)
 [![GitHub](https://img.shields.io/badge/GitHub-YuvalSigura-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YuvalSigura)
