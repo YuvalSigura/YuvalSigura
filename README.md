@@ -2,84 +2,96 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:0d1117&height=180&section=header&text=Yuval%20Sigura&fontSize=46&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc=I%20build%20systems%20that%20don%27t%20trust%20the%20model.&descAlignY=70&descAlign=50&descSize=16" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=420&height=60&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." alt="Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=420&height=60&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." alt="Engineering principles" />
 
-<img src="https://skillicons.dev/icons?i=python,javascript,docker,linux,git,github,vscode,c,cs&perline=6" alt="Stack" />
+**AI Research · Cybersecurity · Software Engineering · Robotics · Embedded Systems**
+
+<img src="https://skillicons.dev/icons?i=python,javascript,cs,c,html,css,docker,linux,git,github,vscode&perline=6" alt="Technology stack" />
 
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00E5FF,100:0d1117&height=30&section=header" width="100%"/>
 
+## About me
+
+I'm **Yuval Sigura**, a computer science student, developer, and independent technology researcher working across artificial intelligence, cybersecurity, software engineering, and autonomous systems.
+
+My work and technical interests span the engineering stack — from embedded devices, operating systems, wireless sensing, and physical computing to backend services, web applications, machine learning, and research infrastructure.
+
+I value **reproducible experiments, explicit security boundaries, measurable results, and evidence that can be checked independently**.
+
+## Areas of focus
+
+- **Artificial Intelligence & Machine Learning** — AI agents, model evaluation, machine learning, computer vision, and intelligent automation.
+- **Cybersecurity & Security Engineering** — authorized penetration testing, Web/API security, vulnerability assessment, defensive tooling, and security research.
+- **Robotics & Autonomous Systems** — navigation, motion control, visual perception, sensor integration, and edge computing.
+- **Embedded & Low-Level Systems** — microcontrollers, embedded Linux, systems programming, hardware/software integration, and OS internals.
+- **Wireless Sensing & Signal Processing** — Wi-Fi CSI, RF fundamentals, signal analysis, and sensing-related experimentation.
+- **Software & Web Development** — Python, C, C#, JavaScript, .NET, web applications, and developer tools.
+- **Backend Systems & Infrastructure** — APIs, local services, persistent state, Docker, Linux, Git, CI/CD, and workflow automation.
+- **Reverse Engineering & Binary Analysis** — binary inspection, patching, and low-level security-oriented experimentation.
+- **Research & Evaluation** — experimental design, benchmarking, provenance, reproducibility, and independent validation.
+
 <div align="center">
 
-### The only question that matters
+### The question behind the work
 
 > "How do you *know* that happened?"
 
-Most systems answer with the model's confidence.  
-Mine answer with an artifact that can be checked by something that isn't the model.
+A system's output is more useful when its underlying evidence can be inspected — not merely accepted because a model sounds confident.
 
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,100:00E5FF&height=30&section=footer" width="100%"/>
 
-## What the code actually does
+## How I approach engineering
 
-Agents reason.  
-They do **not** own the scheduler, the policy, or the proof store.
+For security-sensitive and autonomous systems, I aim to keep **reasoning, authorization, execution, and verification** separate.
 
-Anything that can touch a target goes through a gate the agent does not control.  
-Evidence is written by something other than the thing that made the claim.  
-If the evidence is missing or ambiguous, the system stops. It does not improvise a success.
+An agent can recommend an action without granting itself permission to execute it. A test can produce an apparent success without proving that the expected state changed. A research record can contain a hypothesis without treating it as an established fact.
 
-This is not a slogan. It is how the objects are structured.
+These principles appear in my public work through:
 
-The same separation shows up in:
+- Research tools that preserve uncertainty and source provenance.
+- Controlled security laboratories that verify outcomes using independent evidence.
+- Robotics software with explicit arming, bounded motor commands, and fail-safe behavior.
+- Engineering workflows that distinguish implemented, tested, and proposed capabilities.
 
-- Security research systems where “proposed” and “allowed” are different types
-- Labs where an independent oracle checks the real output, not the summary
-- Research engines that keep the questions and the uncertainty instead of rewriting them into a clean story
-- Physical platforms where the low-level control refuses to move without an explicit, bounded command
+**Models propose. Systems authorize. Evidence decides.**
 
-**Models propose. Systems authorize. Evidence decides.**  
-If that sentence bothers you, good. It should.
+## Selected public projects
 
-## Public work
+| Project | Focus and demonstrated work |
+|:---|:---|
+| 🔬 **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Evidence-grounded security research archive, question-first investigation reconstruction, provenance tracking, and evaluation infrastructure. |
+| 🛡️ **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | Intentionally vulnerable, locally controlled multi-tenant SaaS security lab with Web/API workflows and independent artifact verification. |
+| 🤖 **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Jetson Orin Nano / ESP32 research rover; motor control, fail-safe communication, camera support, and visual navigation. Hardware-specific integration remains subject to verification. |
+| 🔗 **[ONE](https://github.com/YuvalSigura/one)** | Local multi-agent MCP coordination, durable task state, explicit approvals, and reproducible development workflows. |
+| 🔍 **[Train Ticket Security Assessment](https://github.com/YuvalSigura/train-ticket-Analysis-Report)** | Documented penetration-testing methodology, Web/API vulnerability analysis, evidence-backed findings, and remediation reporting in an educational test environment. |
+| 📚 **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | Interactive Hebrew web application for exam preparation, active-recall practice, weak-topic review, and local learning-progress tracking. **[Live app](https://yuvalsigura.github.io/)** |
 
-| | |
-|:---:|:---|
-| 🔬 | **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)**  
-Reconstructs the questions that produced a result. Keeps the uncertainty. |
-| 🛡️ | **[HELIOS](https://github.com/YuvalSigura/HELIOS)**  
-A lab where an oracle verifies real artifacts. The agent does not grade its own homework. |
-| 🤖 | **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)**  
-Edge robotics. The motors only move on commands that have already passed a boundary. |
-| 📚 | **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)**  
-A small active-recall tool. Because not everything has to be infrastructure. |
+Additional public explorations include [binary analysis and patching in C#/.NET](https://github.com/YuvalSigura/PuaSuiteClean) and [Wi-Fi CSI sensing](https://github.com/YuvalSigura/esp-csi). Refer to individual repositories for scope, attribution, and project status.
 
-## Current constraint
+## Current interests
 
-Longer loops. Better evaluation of autonomous investigators. Closer coupling between digital labs and physical sensing.
+I'm especially interested in reliable AI systems, security engineering, autonomous robotics, sensor-driven computing, and tools that make complex software easier to test and understand.
 
-The rule stays the same:  
-the system must be able to say **"we do not yet have evidence for that."**
+Across these areas, I try to make a clear distinction between **what is implemented, what has been tested, and what is still experimental**.
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00E5FF,100:0d1117&height=40&section=header" width="100%"/>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YuvalSigura&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9" alt="Stats" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api?username=YuvalSigura&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9" alt="GitHub statistics" width="100%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuvalSigura&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&text_color=c9d1d9" alt="Languages" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuvalSigura&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&text_color=c9d1d9" alt="Top repository languages" width="100%" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YuvalSigura&theme=tokyonight&hide_border=true&background=0d1117&stroke=00E5FF&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="Streak" width="100%" />
-
-<br>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YuvalSigura&theme=tokyonight&hide_border=true&background=0d1117&stroke=00E5FF&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="Contribution streak" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvalsigura)
 [![GitHub](https://img.shields.io/badge/GitHub-YuvalSigura-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YuvalSigura)
 
-*Open to work on systems that refuse to trust the model.*
+*Open to opportunities and collaborations in AI, cybersecurity, software engineering, and autonomous systems.*
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=70&section=footer&text=Models+propose.+Systems+authorize.+Evidence+decides.&fontSize=18&fontColor=00E5FF&fontAlignY=55" width="100%"/>
 
