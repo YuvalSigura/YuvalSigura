@@ -6,9 +6,11 @@
 
 **Computer Science · AI Systems · Security Research · Robotics · Software Engineering**
 
+*An engineer's discipline. A researcher's curiosity. An artist's eye.*
+
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3200&pause=1200&color=00E5FF&center=true&vCenter=true&width=560&height=65&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." alt="Animated engineering principles: Agents cannot authorize themselves; Evidence is not model opinion; Fail-closed, always." width="560" />
 
-[**Explore my work ↓**](#featured-work) · [**Engineering approach**](#how-i-engineer) · [**Tech stack**](#technical-toolbox) · [**Connect**](#lets-connect)
+[**My many sides**](#more-than-one-discipline) · [**Featured projects**](#featured-work) · [**Creative work**](#creativity-meets-technology) · [**Tech stack**](#technical-toolbox) · [**Connect**](#lets-connect)
 
 </div>
 
@@ -16,13 +18,28 @@
 
 ## The short version
 
-I'm **Yuval Sigura** — a computer science student, software developer, and independent technology researcher who enjoys working where **AI, cybersecurity, infrastructure, and physical systems meet**.
+I'm **Yuval Sigura** — a computer science student, software developer, independent technology researcher, and painter. I work where **AI, cybersecurity, software, and physical systems meet**, but I'm just as interested in the visual, human side of what technology makes possible.
 
 I don't just explore how a system *could* work. I like building the prototype, defining the failure modes, writing the tests, and finding out **what the evidence actually supports**.
 
 My public work ranges from a research archive for understanding vulnerability discoveries to a controlled SaaS security laboratory, an autonomous Jetson/ESP32 rover, local multi-agent coordination software, and an interactive study application.
 
 **What connects these projects:** turning ambitious ideas into inspectable engineering — with clear authorization, observable behavior, and honest limits on what has been proven.
+
+## More than one discipline
+
+My interests aren't separate boxes. They reinforce each other:
+
+| Side of me | How it shows up |
+|:--|:--|
+| **🔬 The researcher** | I turn open questions into experiments, evaluation methods, and evidence-backed explanations. |
+| **🛡️ The security thinker** | I look for broken assumptions, trust-boundary failures, and ways to prove whether a system behaves as intended. |
+| **🧠 The AI / systems builder** | I design tools, APIs, autonomous workflows, and infrastructure where reliability matters as much as functionality. |
+| **🤖 The hands-on maker** | I connect software with motors, cameras, sensors, embedded devices, and the unpredictable physical world. |
+| **🎨 The visual creator** | I paint, explore design, and think about composition, clarity, and how an idea feels to the person seeing it. |
+| **🌐 The web product builder** | I create educational and content-driven web experiences, combining interface design, code, and communication. |
+
+The goal isn't to be an expert in everything. It's to **connect disciplines intelligently**, learn fast, and carry a problem from curiosity through implementation to something demonstrable.
 
 ## Featured work
 
@@ -80,6 +97,18 @@ A Hebrew study application with active recall, weak-topic practice, and local pr
 
 **Other public explorations:** [C#/.NET binary analysis tooling](https://github.com/YuvalSigura/PuaSuiteClean) · [Wi-Fi CSI sensing resources](https://github.com/YuvalSigura/esp-csi). Check individual repositories for original upstream attribution, scope, and maturity.
 
+## Creativity meets technology
+
+Good engineering solves a technical problem. Great products also make the solution understandable, usable, and memorable.
+
+**🎨 Painting & visual thinking** — I paint and enjoy experimenting with color, composition, and artistic expression. That creative practice influences how I think about interfaces, diagrams, documentation, and product identity.
+
+**🌐 Web design & digital publishing** — Beyond GitHub, I work on independent health-and-wellness publishing websites, combining ASP.NET, HTML, CSS, JavaScript, visual design, and educational writing. This is a different engineering challenge: building for actual readers, not just other developers. I keep these publications separate from this technical portfolio.
+
+**🕹️ Interactive experiences** — I enjoy projects that make learning playful and hands-on, including [Hacking Zone](https://github.com/YuvalSigura/hack2war), a C-based terminal codebreaking game, and [Exam Recall](https://yuvalsigura.github.io/), a live browser-based study tool.
+
+**📖 Explaining difficult ideas** — Writing useful documentation and turning technical or scientific subjects into understandable material matters to me. Whether the audience is a developer, researcher, student, or everyday reader, clarity is part of the craft.
+
 ## What I bring to an engineering team
 
 | Strength | What that looks like in practice |
@@ -88,6 +117,8 @@ A Hebrew study application with active recall, weak-topic practice, and local pr
 | **Security-minded design** | Authorization boundaries, negative controls, fail-safe behavior, and independent outcome checks |
 | **Cross-layer engineering** | Moving between Python services, APIs, local infrastructure, microcontrollers, and physical platforms |
 | **Ownership of the whole loop** | Architecture, implementation, test cases, documentation, and evaluation — not just a demo |
+| **Product & visual perspective** | UI decisions, educational experiences, design communication, and thinking from the user's point of view |
+| **Multidisciplinary curiosity** | Combining ideas from security, mathematics, AI, robotics, and the arts without confusing exploration with expertise |
 
 I'm particularly interested in **AI systems engineering, security R&D, backend/platform engineering, and autonomous systems**.
 
@@ -140,16 +171,17 @@ flowchart LR
 | **AI / research** | AI agents, model evaluation, machine learning, OpenCV, experiment design, benchmarks |
 | **Robotics / embedded** | Jetson Orin Nano, ESP32, computer vision, sensor integration, motor control |
 | **Signals / low-level** | Wi-Fi CSI sensing, signal analysis, OS internals, binary inspection, reverse-engineering research |
+| **Web / creative technology** | ASP.NET, HTML/CSS, JavaScript, interface design, interactive learning tools, visual communication, digital publishing |
 
 This is an overview of technologies used or explored across public work and broader engineering interests, not a claim that every area is equally mature.
 
 </details>
 
-## Beyond a single discipline
+## The common thread
 
-I like projects that connect ideas normally kept in separate boxes: **security research with scientific evidence, AI tooling with reliable infrastructure, and autonomy with low-level hardware control**.
+I like projects that connect ideas normally kept in separate boxes: **security research with scientific evidence, AI tooling with reliable infrastructure, autonomy with embedded hardware, and code with creative design**.
 
-The common theme isn't a particular framework. It's the habit of asking difficult questions, implementing useful systems, and verifying the results.
+I approach a research question, a robot, a website, and a painting differently. But all four reward curiosity, careful observation, experimentation, and the willingness to revise an idea until it works.
 
 <details>
 <summary><strong>▶ GitHub activity and language overview</strong></summary>
@@ -168,7 +200,7 @@ The common theme isn't a particular framework. It's the habit of asking difficul
 
 ## Let's connect
 
-Interested in **research-driven engineering, reliable AI, security systems, or robotics**? I'm open to engineering opportunities, technical discussions, and collaboration.
+Interested in **AI systems, security research, software engineering, robotics, creative technology, or an unusual intersection between them**? I'm open to engineering opportunities, technical discussions, and collaboration.
 
 <div align="center">
 
