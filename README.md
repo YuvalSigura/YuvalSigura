@@ -1,12 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=160&section=header&text=Yuval%20Sigura&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Models%20propose.%20Systems%20authorize.%20Evidence%20decides.&descAlignY=58&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=140&section=header&text=Yuval%20Sigura&fontSize=42&fontColor=00E5FF&animation=fadeIn&fontAlignY=40&desc=I%20build%20systems%20that%20don%27t%20trust%20the%20model.&descAlignY=68&descAlign=50&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=800&color=00E5FF&center=true&vCenter=true&width=600&lines=I+build+the+systems+that+keep+agents+honest.;No+self-authorization.+No+invented+evidence.;Fail-closed+by+design." alt="Typing SVG" />
-
-### AI Security · Autonomous Research · Evidence-Governed Systems
-
-**The infrastructure that refuses to trust the model.**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2200&pause=700&color=00E5FF&center=true&vCenter=true&width=680&lines=Agents+that+can%27t+authorize+themselves.;Evidence+that+isn%27t+just+the+model%27s+opinion.;Fail-closed.+Always." alt="Typing SVG" />
 
 </div>
 
@@ -14,56 +10,51 @@
 
 <div align="center">
 
-### The Question That Breaks Most AI Systems
+### The only question that matters
 
 > "How do you *know* that happened?"
 
-Most systems have no real answer.  
-Mine do.
+Most systems answer with the model’s confidence.  
+Mine answer with an artifact that can be checked by something that isn’t the model.
 
 </div>
 
-## What I Actually Build
+## What the code actually does
 
-Agents that reason hard  
-**but cannot authorize their own actions.**
+Agents reason.  
+They do **not** own the scheduler, the policy, or the proof store.
 
-Evidence recorded independently.  
-Verification that fails closed.  
-Boundaries that hold when the model is wrong.
+Anything that can touch a target goes through a gate that the agent doesn’t control.  
+Evidence is written by something other than the thing that made the claim.  
+If the evidence is missing or ambiguous, the system stops. It does not improvise a success.
 
-The same pattern across:
+This is not a slogan. It is how the objects are structured.
 
-- Authorized security research (propose ≠ allowed)
-- Controlled labs with independent oracles
-- Research reconstruction that preserves uncertainty
-- Physical platforms with fail-safe control
+The same separation shows up in:
 
-**Models propose. Systems authorize. Evidence decides.**
+- Security research systems where “proposed” and “allowed” are different types
+- Labs where an independent oracle checks the real output, not the summary
+- Research engines that keep the questions and the uncertainty instead of rewriting them into a clean story
+- Physical platforms where the low-level control refuses to move without an explicit, bounded command
 
-## Featured Public Work
+**Models propose. Systems authorize. Evidence decides.**  
+If that sentence bothers you, good. It should.
+
+## Public work
 
 | | |
 |---|----------------|
-| 🔬 **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Reconstructs the *questions* behind discoveries, not just the final result. |
-| 🛡️ **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | Lab where an oracle checks real artifacts instead of the agent's story. |
-| 🤖 **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Edge robotics that refuses to move without explicit, bounded commands. |
-| 📚 **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | Live active-recall tool. |
+| **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Reconstructs the questions that produced a result. Keeps the uncertainty. |
+| **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | A lab where an oracle verifies real artifacts. The agent does not grade its own homework. |
+| **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Edge robotics. The motors only move on commands that have already passed a boundary. |
+| **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | A small active-recall tool. Because not everything has to be infrastructure. |
 
-## How the Code Behaves
+## Current constraint
 
-- Agents do **not** own the scheduler, policy, or proof store.
-- Anything that can affect a target goes through an authorization gate.
-- Evidence lives separately from model output.
-- Negative results and "not tried" stay visible.
-- Verification does not require trusting the component under test.
+Longer loops. Better evaluation of autonomous investigators. Closer coupling between digital labs and physical sensing.
 
-## Now
-
-Longer research loops. Better evaluation of autonomous investigators. Tighter coupling between controlled digital labs and physical platforms.
-
-Always with one rule:  
-**the system must be able to say "we do not yet have evidence for that."**
+The rule stays the same:  
+the system must be able to say **"we do not yet have evidence for that."**
 
 ---
 
@@ -75,8 +66,6 @@ Always with one rule:
 
 <br>
 
-**Models propose. Systems authorize. Evidence decides.**
-
-*Open to collaborations on research infrastructure, agent evaluation labs, and evidence-governed systems.*
+*Open to work on systems that refuse to trust the model.*
 
 </div>
