@@ -1,69 +1,57 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Yuval+Sigura;Building+evidence-first+AI+%26+security+systems;Research+that+asks+better+questions;From+labs+to+robots+%E2%80%94+verified%2C+not+claimed" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&duration=2800&pause=900&color=7DD3FC&center=true&vCenter=true&width=700&lines=Agents+that+reason.;Systems+that+authorize.;Evidence+that+survives+scrutiny.;Boundaries+that+hold+under+failure." alt="Typing SVG" />
 
-### AI Research · Cybersecurity · Autonomous Systems · Robotics
+### Building systems where reasoning, authorization, and evidence stay separate
 
-**I build systems that turn questions into verified discoveries — with clear evidence, explicit boundaries, and reproducible results.**
-
-[![GitHub](https://img.shields.io/badge/GitHub-YuvalSigura-181717?style=for-the-badge&logo=github)](https://github.com/YuvalSigura)
-[![Website](https://img.shields.io/badge/Live_App-Exam_Recall-00C853?style=for-the-badge)](https://yuvalsigura.github.io/)
-[![Location](https://img.shields.io/badge/Location-Tel_Aviv-blue?style=for-the-badge)](#)
+**I design and implement research and security infrastructure that treats models as proposers — not as authorities.**
 
 </div>
 
 ---
 
-## 🧭 About
+## What I actually build
 
-Self-taught cybersecurity and AI infrastructure builder focused on **autonomous research systems**, controlled security laboratories, and evidence-driven engineering.
+Most of the work is about the same problem from different angles:
 
-I care less about impressive demos and more about:
-- What question was actually being asked
-- What evidence supports the claim
-- What failed, what was never tried, and why
-- Clear authorization and safety boundaries
+how to let autonomous systems explore, form hypotheses, and propose actions  
+**without** letting them authorize those actions, invent evidence, or declare success.
 
-Current work spans research reconstruction engines, multi-tenant security labs for agent evaluation, and physical autonomous platforms.
+The recurring pattern in the code is deliberate separation of concerns:
 
-## 🚀 Selected Projects
+- **Reasoning** — agents generate questions, plans, and candidate actions.
+- **Authorization** — a separate plane decides what is actually allowed, under what policy, and with what budget.
+- **Execution** — happens in controlled environments, with explicit artifacts.
+- **Evidence** — recorded independently. Claims are verified against real outputs, not against the model’s report.
+- **Verification** — fail-closed. Missing evidence, ambiguous provenance, or policy violation blocks progress rather than being smoothed over.
 
-| Project | Focus | Stack | Why it matters |
-|---------|-------|-------|----------------|
-| **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Question-first research intelligence | Python, schemas, evidence graphs | Reconstructs *how* investigators arrive at discoveries — not just the final exploit. Preserves uncertainty, negative results, and provenance. |
-| **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | Controlled SaaS security laboratory | FastAPI, Docker, Postgres, Redis, MinIO | Intentionally vulnerable multi-tenant lab for authorized agent evaluation. Independent oracle verifies real artifacts, not model claims. |
-| **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Autonomous research rover | Jetson Orin Nano, ESP32, OpenCV, Python | Edge robotics with fail-safe motor control, visual navigation, and planned RF sensing. Software is CI-tested; hardware calibration is explicit. |
-| **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | Interactive study platform | JavaScript, HTML/CSS | Live Hebrew active-recall tool for Discrete Math & Computer Systems. |
+This shows up in authorized security research systems, controlled laboratories for evaluating agents, research-reconstruction engines, and experiments that touch physical platforms. The common thread is not the domain — it is the refusal to collapse the boundary between “the model said so” and “we can prove it happened.”
 
-## 🛠️ How I Work
+## Selected public work
 
-- **Evidence before narrative** — distinguish measured results from hypotheses and plans
-- **Safety by design** — isolate privileged actions; authorization is explicit
-- **Reproducibility** — controlled environments, tests, and clear documentation
-- **Engineering honesty** — mark what is implemented, tested, experimental, or planned
-- **Cross-domain** — connect AI agents, security research, and physical systems when useful
+| Project | What it is trying to do |
+|---------|--------------------------|
+| **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Reconstruct the questions and decision points that produced discoveries, with explicit uncertainty and provenance. |
+| **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | A local multi-tenant lab where an independent oracle checks real artifacts and audit trails instead of trusting an agent’s summary. |
+| **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Edge robotics with fail-safe low-level control separated from higher-level planning. |
+| **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | Small public tool for active-recall practice. |
 
-## 📊 GitHub Stats
+## How the code tends to look
 
-<div align="center">
+- Agents do not own the scheduler, the policy engine, or the proof store.
+- Actions that can affect a target go through an explicit authorization check.
+- Evidence records are distinct from model outputs.
+- Failures, negative results, and “not tried” are preserved rather than rewritten into success stories.
+- Experiments are designed so that verification can happen without trusting the component under test.
 
-<img src="https://github-readme-stats.vercel.app/api?username=YuvalSigura&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuvalSigura&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Languages" />
+## Current focus
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YuvalSigura&theme=tokyo-night&hide_border=true" width="100%" alt="Activity Graph" />
-
-</div>
-
-## 💡 Current Focus
-
-Building research-grade infrastructure for **AI-assisted discovery**, **authorized security evaluation**, and **autonomous robotic systems** — where claims are verified against real artifacts, not accepted on faith.
+Extending the same separation of concerns into longer-running research loops, better evaluation of autonomous investigators, and tighter coupling between controlled digital labs and physical sensing platforms — always with the constraint that the system must be able to say “we do not yet have evidence for that.”
 
 ---
 
 <div align="center">
 
-**Better questions. Clearer evidence. Verified outcomes.**
-
-*Open to collaborations on research infrastructure, security labs, and agent evaluation systems.*
+**Models propose. Systems authorize. Evidence decides.**
 
 </div>
