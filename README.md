@@ -4,6 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2200&pause=700&color=00E5FF&center=true&vCenter=true&width=680&lines=Agents+that+can%27t+authorize+themselves.;Evidence+that+isn%27t+just+the+model%27s+opinion.;Fail-closed.+Always." alt="Typing SVG" />
 
+<img src="https://skillicons.dev/icons?i=python,javascript,html,css,c,cs,git,github,docker,linux,vscode&perline=8" alt="Skills" />
+
 </div>
 
 ---
@@ -18,6 +20,8 @@ Most systems answer with the model’s confidence.
 Mine answer with an artifact that can be checked by something that isn’t the model.
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00E5FF,100:0d1117&height=40&section=header" width="100%"/>
 
 ## What the code actually does
 
@@ -44,10 +48,10 @@ If that sentence bothers you, good. It should.
 
 | | |
 |---|----------------|
-| **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Reconstructs the questions that produced a result. Keeps the uncertainty. |
-| **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | A lab where an oracle verifies real artifacts. The agent does not grade its own homework. |
-| **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Edge robotics. The motors only move on commands that have already passed a boundary. |
-| **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | A small active-recall tool. Because not everything has to be infrastructure. |
+| 🔬 **[Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)** | Reconstructs the questions that produced a result. Keeps the uncertainty. |
+| 🛡️ **[HELIOS](https://github.com/YuvalSigura/HELIOS)** | A lab where an oracle verifies real artifacts. The agent does not grade its own homework. |
+| 🤖 **[SpectraRover](https://github.com/YuvalSigura/autonomous_robot)** | Edge robotics. The motors only move on commands that have already passed a boundary. |
+| 📚 **[Exam Recall](https://github.com/YuvalSigura/yuvalsigura.github.io)** | A small active-recall tool. Because not everything has to be infrastructure. |
 
 ## Current constraint
 
@@ -55,6 +59,8 @@ Longer loops. Better evaluation of autonomous investigators. Closer coupling bet
 
 The rule stays the same:  
 the system must be able to say **"we do not yet have evidence for that."**
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,100:00E5FF&height=40&section=footer" width="100%"/>
 
 ---
 
@@ -67,5 +73,7 @@ the system must be able to say **"we do not yet have evidence for that."**
 <br>
 
 *Open to work on systems that refuse to trust the model.*
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=60&section=footer&text=Models+propose.+Systems+authorize.+Evidence+decides.&fontSize=16&fontColor=00E5FF" width="100%"/>
 
 </div>
