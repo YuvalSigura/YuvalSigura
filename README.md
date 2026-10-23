@@ -10,7 +10,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3200&pause=1200&color=00E5FF&center=true&vCenter=true&width=560&height=65&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." alt="Animated engineering principles: Agents cannot authorize themselves; Evidence is not model opinion; Fail-closed, always." width="560" />
 
-[**My many sides**](#more-than-one-discipline) · [**Featured projects**](#featured-work) · [**Interactive projects**](#interactive-software-and-learning) · [**Tech stack**](#technical-toolbox) · [**Connect**](#lets-connect)
+[**My many sides**](#more-than-one-discipline) · [**Featured projects**](#featured-work) · [**DIY guitar pedals**](#audio-meets-hardware) · [**Tech stack**](#technical-toolbox) · [**Connect**](#lets-connect)
 
 </div>
 
@@ -38,6 +38,7 @@ My interests aren't separate boxes. They reinforce each other:
 | **🤖 The hands-on maker** | I connect software with motors, cameras, sensors, embedded devices, and the unpredictable physical world. |
 | **🕹️ The interactive builder** | I enjoy building educational applications and programming projects that turn abstract concepts into something people can use and explore. |
 | **🌐 The web product builder** | I build browser-based applications with interactive workflows, user interfaces, and local progress tracking. |
+| **🎸 The audio tinkerer** | I build and use Python-based virtual guitar effects, including a setup controlled by an existing physical pedal. |
 
 The goal isn't to be an expert in everything. It's to **connect disciplines intelligently**, learn fast, and carry a problem from curiosity through implementation to something demonstrable.
 
@@ -96,6 +97,18 @@ A public, sanitized penetration-testing report covering Web/API analysis, valida
 A Hebrew study application with active recall, weak-topic practice, and local progress tracking. A working user-facing product alongside the research and infrastructure projects.
 
 **Other public explorations:** [C#/.NET binary analysis tooling](https://github.com/YuvalSigura/PuaSuiteClean) · [Wi-Fi CSI sensing resources](https://github.com/YuvalSigura/esp-csi). Check individual repositories for original upstream attribution, scope, and maturity.
+
+## Audio meets hardware
+
+**🎸 DIY virtual guitar effects and pedals — Python + physical control**
+
+I built **my own virtual guitar effects/pedals in Python**, and I actually use them when playing. I also connected an **existing physical pedal to control the virtual effects**, bringing hands-on hardware interaction into a software-based guitar rig.
+
+What I enjoy about this project is the crossover: **audio programming, real-world controls, and the same hardware-to-software thinking that draws me to robotics and embedded systems**.
+
+The DIY effects and physical-pedal integration are working personal projects. I'd like to deepen the audio side over time, experimenting further when I have the opportunity. I haven't published a dedicated repository or technical breakdown for this build here.
+
+This is distinct from the [open-source Neural Amp Modeler Plug-in](https://github.com/YuvalSigura/NeuralAmpModelerPlugin), which is another audio project I'd like to explore further; I do not claim authorship of that upstream plug-in.
 
 ## Interactive software and learning
 
@@ -172,6 +185,7 @@ flowchart LR
 | **Robotics / embedded** | Jetson Orin Nano, ESP32, computer vision, sensor integration, motor control |
 | **Signals / low-level** | Wi-Fi CSI sensing, signal analysis, OS internals, binary inspection, reverse-engineering research |
 | **Web & interactive applications** | HTML/CSS, JavaScript, browser state, interactive study tools, UI behavior, educational software |
+| **DIY audio & physical controls** | Python guitar effects, virtual pedals, physical-pedal input integration; deeper audio/DSP work remains an area to explore |
 
 This is an overview of technologies used or explored across public work and broader engineering interests, not a claim that every area is equally mature.
 
@@ -179,7 +193,7 @@ This is an overview of technologies used or explored across public work and broa
 
 ## The common thread
 
-I like projects that connect ideas normally kept in separate boxes: **security research with scientific evidence, AI tooling with reliable infrastructure, autonomy with embedded hardware, and complex engineering with practical user-facing software**.
+I like projects that connect ideas normally kept in separate boxes: **security research with scientific evidence, AI tooling with reliable infrastructure, autonomy with embedded hardware, music with physical-to-digital controls, and complex engineering with practical user-facing software**.
 
 A research archive, security lab, robot, and interactive learning application solve different problems. What connects them is curiosity, careful experimentation, and the willingness to revise an implementation when the evidence calls for it.
 
