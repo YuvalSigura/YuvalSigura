@@ -70,7 +70,14 @@ the system must be able to say **"we do not yet have evidence for that."**
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuvalSigura&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" width="100%" />
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YuvalSigura&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" width="100%" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=YuvalSigura&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=4" alt="Trophies" />
+
 <br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yuvalsigura)
+[![GitHub](https://img.shields.io/badge/GitHub-YuvalSigura-181717?style=for-the-badge&logo=github)](https://github.com/YuvalSigura)
 
 *Open to work on systems that refuse to trust the model.*
 
