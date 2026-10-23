@@ -10,7 +10,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3200&pause=1200&color=00E5FF&center=true&vCenter=true&width=560&height=65&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." alt="Animated engineering principles: Agents cannot authorize themselves; Evidence is not model opinion; Fail-closed, always." width="560" />
 
-[**My many sides**](#more-than-one-discipline) · [**Featured projects**](#featured-work) · [**DIY guitar pedals**](#audio-meets-hardware) · [**Tech stack**](#technical-toolbox) · [**Connect**](#lets-connect)
+[**Projects**](#featured-work) · [**Hack The Box**](#hack-the-box-achievements) · [**DIY guitar pedals**](#audio-meets-hardware) · [**Tech stack**](#technical-toolbox) · [**Connect**](#lets-connect)
 
 </div>
 
@@ -100,6 +100,8 @@ A Hebrew study application with active recall, weak-topic practice, and local pr
 
 ## Hack The Box achievements
 
+[![Hack The Box profile](https://img.shields.io/badge/Hack%20The%20Box-View%20my%20profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=111927)](https://profile.hackthebox.com/profile/019f54a9-17f3-71dd-b2d1-e8a20d17b4b7)
+
 I practice cybersecurity through Hack The Box Labs and Academy. Selected historical achievements:
 
 - **Season 9:** Bronze, Silver, and Ruby achievement tiers (2025).
@@ -110,7 +112,7 @@ I practice cybersecurity through Hack The Box Labs and Academy. Selected histori
 
 **Academy learning:** Footprinting, Nmap Deep Dive, Introduction to Vulnerability Assessment, Cross-Site Scripting (XSS), and Using the Metasploit Framework.
 
-*These are previously documented milestones, not current rank or certification claims.*
+*These are previously documented milestones, not current rank or certification claims. For the latest visible activity, badges, and progress, visit [my HTB profile](https://profile.hackthebox.com/profile/019f54a9-17f3-71dd-b2d1-e8a20d17b4b7).*
 
 ---
 ## Audio meets hardware
@@ -235,6 +237,7 @@ Interested in **AI systems, security research, software engineering, robotics, i
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvalsigura)
 [![GitHub](https://img.shields.io/badge/GitHub-Explore_my_code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YuvalSigura)
+[![Hack The Box](https://img.shields.io/badge/Hack%20The%20Box-Security%20profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=111927)](https://profile.hackthebox.com/profile/019f54a9-17f3-71dd-b2d1-e8a20d17b4b7)
 
 **Build with curiosity. Test with discipline. Publish what the evidence supports.**
 
