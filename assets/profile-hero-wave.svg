@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="300" viewBox="0 0 1024 300" role="img" aria-label="Yuval Sigura. Software engineer, security researcher and systems builder.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0.06" x2="1" y2="0.92">
+      <stop offset="0" stop-color="#071923"/>
+      <stop offset=".55" stop-color="#0b1725"/>
+      <stop offset="1" stop-color="#102a36"/>
+    </linearGradient>
+    <linearGradient id="energy" x1="0" y1="0" x2="1" y2=".45">
+      <stop offset="0" stop-color="#00edfa"/>
+      <stop offset=".50" stop-color="#00b9cf"/>
+      <stop offset="1" stop-color="#127eab" stop-opacity=".17"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e6f6"/>
+      <stop offset=".77" stop-color="#00c2da" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#009cb8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="72%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#13a9bb" stop-opacity=".26"/>
+      <stop offset=".9" stop-color="#0c1625" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#449cab" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1024" height="300" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1024" height="300" fill="url(#bg)"/>
+    <rect width="1024" height="300" fill="url(#halo)"/>
+    <path d="M 480 0 H1024 V300 H 640 Q 827 254 885 168 Q934 96 1024 95" fill="#072a35" opacity=".7"/>
+    <path d="M0 234 C175 214 282 254 434 241 S745 167 1024 184 L1024 300 L0 300Z" fill="#0c6c89" opacity=".43"/>
+    <path d="M0 251 C183 201 323 284 491 248 S805 199 1024 231 L1024 300 L0 300Z" fill="url(#energy)" opacity=".83"/>
+    <path d="M0 274 C239 242 380 299 600 255 S827 228 1024 265 L1024 300 L0 300Z" fill="#0a2432" opacity=".82"/>
+    <path d="M0 234 C175 214 282 254 434 241 S745 167 1024 184" fill="none" stroke="#20e8ef" stroke-opacity=".53" stroke-width="2"/>
+    <path d="M0 251 C183 201 323 284 491 248 S805 199 1024 231" fill="none" stroke="#5de2f3" stroke-opacity=".25" stroke-width="1"/>
+    <rect width="1024" height="235" fill="url(#grid)" opacity=".48"/>
+    <rect x="0" y="0" width="1024" height="5" fill="url(#rule)"/>
+    <path d="M57 65 H99 M57 65 V88" fill="none" stroke="#00e6ef" stroke-width="3" stroke-linecap="round"/>
+    <text x="57" y="53" fill="#68e8ed" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" letter-spacing="3.9">RESEARCH  /  BUILD  /  VERIFY</text>
+    <text x="52" y="157" fill="#f1f8ff" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="86" letter-spacing="-2.5">YUVAL</text>
+    <text x="340" y="157" fill="#19e8f0" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="86" letter-spacing="-2.5">SIGURA</text>
+    <rect x="57" y="183" width="504" height="1.5" fill="url(#rule)"/>
+    <text x="56" y="210" fill="#c8e2ec" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2">AI SYSTEMS  •  SECURITY  •  ROBOTICS  •  SOFTWARE</text>
+    <g fill="none" stroke="#74eaf2" stroke-width="1.6" opacity=".55">
+      <path d="M756 70 L840 105 L933 72"/>
+      <path d="M756 70 L785 169 L887 193 L933 72"/>
+      <path d="M840 105 L887 193"/>
+    </g>
+    <circle cx="756" cy="70" r="9" fill="#0b2534" stroke="#1fe8f2" stroke-width="3"/>
+    <circle cx="840" cy="105" r="10" fill="#0b2534" stroke="#1fe8f2" stroke-width="3"/>
+    <circle cx="933" cy="72" r="8" fill="#0b2534" stroke="#7d9dfb" stroke-width="3"/>
+    <circle cx="785" cy="169" r="7" fill="#0b2534" stroke="#1fe8f2" stroke-width="2"/>
+    <circle cx="887" cy="193" r="9" fill="#0b2534" stroke="#7d9dfb" stroke-width="3"/>
+    <circle cx="840" cy="105" r="3" fill="#d9faff"/>
+    <text x="754" y="43" fill="#62cbd8" font-family="monospace" font-size="12" letter-spacing="2">SYSTEMS CONNECTED</text>
+  </g>
+  <rect x="1" y="1" width="1022" height="298" rx="19" fill="none" stroke="#276173" stroke-width="2"/>
+</svg>
