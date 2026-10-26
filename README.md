@@ -1,16 +1,29 @@
 <div align="center">
 
-<img src="assets/profile-hero.svg" alt="Yuval Sigura — research-led engineering across AI, cybersecurity, robotics and software" width="100%" />
+<img src="assets/profile-hero-wave.svg" alt="Yuval Sigura — research, build, verify. AI systems, security, robotics and software engineering." width="100%" />
 
-### I turn hard questions into systems you can build, test, and verify.
+### Building intelligent systems. Breaking assumptions. Connecting code to the real world.
 
-**Computer Science · AI Systems · Security Research · Robotics · Software Engineering**
+**Cybersecurity Research · AI & Agent Systems · Robotics & Embedded Engineering**  
+**Software Development · Automation · Creative Hardware**
 
-*A researcher's curiosity. An engineer's discipline. A builder's mindset.*
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3200&pause=1200&color=16E8F0&center=true&vCenter=true&width=680&height=64&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." width="100%" alt="Animated engineering principles: Agents cannot authorize themselves; Evidence is not model opinion; Fail-closed, always." />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3200&pause=1200&color=00E5FF&center=true&vCenter=true&width=560&height=65&lines=Agents+cannot+authorize+themselves.;Evidence+%E2%89%A0+model+opinion.;Fail-closed.+Always." alt="Animated engineering principles: Agents cannot authorize themselves; Evidence is not model opinion; Fail-closed, always." width="560" />
+<p>
+  <a href="https://profile.hackthebox.com/profile/019f54a9-17f3-71dd-b2d1-e8a20d17b4b7"><img src="https://img.shields.io/badge/Hack%20The%20Box-Achievements-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=111927" alt="Hack The Box achievements"/></a>
+  <a href="https://github.com/YuvalSigura/Research-Discovery-Lab"><img src="https://img.shields.io/badge/Explore-Research%20Code-0D91AC?style=for-the-badge&logo=github&logoColor=white" alt="Explore research code"/></a>
+  <a href="https://yuvalsigura.github.io/"><img src="https://img.shields.io/badge/Try-Live%20App-5569DC?style=for-the-badge&logo=githubpages&logoColor=white" alt="Try the live Exam Recall app"/></a>
+</p>
 
-[**Projects**](#featured-work) · [**Hack The Box**](#hack-the-box-achievements) · [**DIY guitar pedals**](#audio-meets-hardware) · [**Tech stack**](#technical-toolbox) · [**Connect**](#lets-connect)
+<img src="https://skillicons.dev/icons?i=python,javascript,cs,c,html,css,docker,linux,git,github,vscode&perline=6" alt="Programming languages and tools: Python, JavaScript, C sharp, C, HTML, CSS, Docker, Linux, Git, GitHub, VS Code" />
+
+<p>
+<a href="#featured-work"><strong>Projects</strong></a> ·
+<a href="#hack-the-box-achievements"><strong>HTB</strong></a> ·
+<a href="#audio-meets-hardware"><strong>DIY guitar effects</strong></a> ·
+<a href="#technical-toolbox"><strong>Toolbox</strong></a> ·
+<a href="#lets-connect"><strong>Connect</strong></a>
+</p>
 
 </div>
 
@@ -18,7 +31,7 @@
 
 ## The short version
 
-I'm **Yuval Sigura** — a computer science student, software developer, and independent technology researcher. I build across **AI, cybersecurity, software, and physical systems**, from research tools and infrastructure to interactive applications.
+I'm **Yuval Sigura** — a computer science student, developer, and independent technology researcher working at the intersection of **cybersecurity, AI systems, software engineering, and hands-on hardware**. I build research infrastructure, controlled security environments, robotics software, useful web applications, and even Python guitar effects controlled by a physical pedal.
 
 I don't just explore how a system *could* work. I like building the prototype, defining the failure modes, writing the tests, and finding out **what the evidence actually supports**.
 
